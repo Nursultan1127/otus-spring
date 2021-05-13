@@ -1,0 +1,22 @@
+server:
+  port: 9090
+
+csv:
+  path: ./src/main/resources/questions.csv
+  template: questions_%s_%s.csv
+
+evaluation:
+  criteria:
+    a: 5
+    b: 4
+    c: 3
+
+application:
+  locale:
+    lang: ru
+    country: RU
+
+spring:
+  messages:
+    basename: i18n/messages
+    fallback-to-system-locale: false
